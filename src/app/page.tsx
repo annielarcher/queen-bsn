@@ -36,8 +36,7 @@ export default function Home() {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-black/50" />
         
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
           <div className="flex-grow flex flex-col items-center justify-center">
@@ -91,7 +90,7 @@ export default function Home() {
             {lideranca.map((idealizador) => {
               const image = ImageAssets.find((img) => img.id === idealizador.id);
               return (
-                <Card key={idealizador.id} className="bg-card border-border/60 shadow-lg flex flex-col text-center items-center">
+                <Card key={idealizador.id} className="bg-card border-border/60 shadow-md flex flex-col text-center items-center transform-gpu will-change-transform">
                   <CardHeader className="pt-8">
                     <Avatar className="h-32 w-32 mx-auto border-4 border-primary">
                       {image && <AvatarImage src={image.imageUrl} alt={idealizador.nome} data-ai-hint={image.imageHint} />}
@@ -131,7 +130,7 @@ export default function Home() {
               const isExpanded = expandedTestimonial === testimonial.id;
 
               return (
-                <Card key={testimonial.id} className="bg-background border-border/60 shadow-lg flex flex-col">
+                <Card key={testimonial.id} className="bg-background border-border/60 shadow-md flex flex-col transform-gpu will-change-transform">
                   <CardHeader className="flex flex-row items-center gap-4 pb-4">
                     <Avatar className="h-14 w-14 border-2 border-primary">
                       {image && <AvatarImage src={image.imageUrl} alt={testimonial.name} data-ai-hint={image.imageHint} />}

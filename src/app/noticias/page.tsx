@@ -34,7 +34,7 @@ export default function NoticiasPage() {
             ? ImageAssets.find((img) => img.id === noticia.imageIds[0])
             : null;
           return (
-            <Card key={noticia.id} className="bg-card border-border/60 shadow-lg flex flex-col overflow-hidden transition-transform transform hover:-translate-y-1">
+            <Card key={noticia.id} className="bg-card border-border/60 shadow-md flex flex-col overflow-hidden transition-transform transform-gpu will-change-transform hover:-translate-y-1">
               {firstImage && (
                  <div className="relative h-48 w-full">
                     <Image

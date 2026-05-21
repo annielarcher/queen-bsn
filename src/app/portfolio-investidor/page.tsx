@@ -75,7 +75,7 @@ export default function RouanetPortfolioPage() {
           )}
         </div>
         
-        <div className="relative z-10 bg-background/90 p-12 print:p-4 rounded-2xl border-2 border-primary/30 backdrop-blur-md max-w-5xl shadow-2xl print:border-4 print:shadow-none print:bg-[#0d121f]/95 w-full">
+        <div className="relative z-10 bg-background/95 p-12 print:p-4 rounded-2xl border-2 border-primary/30 md:backdrop-blur-md md:bg-background/90 max-w-5xl shadow-2xl print:border-4 print:shadow-none print:bg-[#0d121f]/95 w-full">
           
           <div className="flex flex-col justify-center items-center gap-4 print:gap-2 mb-10 print:mb-2">
             {logoImage && (

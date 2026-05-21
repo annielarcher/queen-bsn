@@ -38,7 +38,7 @@ export default function PortfolioPage() {
           )}
         </div>
         
-        <div className="z-10 bg-background/90 p-10 print:p-4 rounded-2xl border border-primary/30 backdrop-blur-md max-w-5xl shadow-2xl print:border-2 print:shadow-none print:bg-[#0d121f]/90">
+        <div className="z-10 bg-background/95 p-10 print:p-4 rounded-2xl border border-primary/30 md:backdrop-blur-md md:bg-background/90 max-w-5xl shadow-2xl print:border-2 print:shadow-none print:bg-[#0d121f]/90">
           {logoImage && (
             <div className="mb-6 print:mb-2 flex justify-center">
               <Image 
