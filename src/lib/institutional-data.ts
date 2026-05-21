@@ -19,11 +19,16 @@ export const lideranca = [
     nome: 'Diogo Perdigão',
     cargo: 'Arranjador e oboísta',
     bio: `Diogo Perdigão é compositor, arranjador e oboísta brasileiro, com atuação na música sinfônica e popular, na criação contemporânea e na música para cena. Bacharel em Produção de Áudio e Oboé pelo Conservatório Nacional de Nossa Senhora do Cabo (Portugal), com estudos em Acústica pela Faculdade Nacional de Coimbra e formação complementar estagiando junto à Filarmônica de Berlim.
-
-Como compositor e arranjador, desenvolveu trabalhos para orquestras, bandas sinfônicas, cameratas e grupos brasileiros e internacionais, além de trilhas e arranjos para produções teatrais. Em Portugal, participou da gravação de álbuns para oboé e orquestra de cordas.
-
+    Como compositor e arranjador, desenvolveu trabalhos para orquestras, bandas sinfônicas, cameratas e grupos brasileiros e internacionais, além de trilhas e arranjos para produções teatrais. Em Portugal, participou da gravação de álbuns para oboé e orquestra de cordas.
 Seu trabalho foi premiado com o Prêmio Shell (duas edições) e o CBTIJ, além de ter sido vencedor do 1º lugar em concurso internacional de composição. É fundador da Camerata Assis Brasil, com mais de 200 apresentações realizadas, e recebeu o Prêmio Raphael Baker – Oboísta Destaque no Festival Música das Esferas (2011).`,
     quote: "Ser oboísta e arranjador da Banda Sinfônica Nacional é, para mim, ocupar um lugar onde a interpretação e a criação se encontram, dando voz tanto ao meu instrumento quanto à música que construo coletivamente, reconhecendo a importância de participar ativamente e valorizar a Banda Sinfônica Nacional como um espaço essencial de formação, identidade e expressão artística."
+  },
+  {
+    id: 'eduardo-lagreca',
+    nome: 'Eduardo Lagreca Fan',
+    cargo: 'Regente Assistente',
+    bio: "Bacharel em Piano pela Universidade Federal de Santa Maria (UFSM), Bacharel em Regência pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO) e Mestre em Música também pela UNIRIO. Foi regente assistente da Orquestra da Unirio, regendo a mesma em palcos como a Sala Cecília Meireles; diretor assistente do projeto Ópera na Unirio, onde regeu as óperas Suor Angelica (G. Puccini), Mesdames de La Halle (J. Offenbach), Amahl e os Visitantes Noturnos (G. C. Menotti). Fez parte como aluno da Academia de Música da OSESP, tendo aulas com professores como Wagner Polistchuk, Fabio Mechetti, Claudio Cruz, Stéphane Deneve e Jac van Steen, Atualmente é regente titular da Orquestra Carioca de Flautas, e também regente adjunto da Banda Sinfônica Nacional. Trabalhou em palcos importantes do país como Sala Cecília Meireles, Theatro Municipal (RJ) e Sala São Paulo, a frente de orquestras como OSB Jovem e Orquestra Jovem do Estado de São Paulo (OJESP)..",
+    quote: "A verdadeira regência nasce quando a profundidade dos estudos acadêmicos encontra a alma e a exigência dos grandes palcos."
   },
 ];
 
