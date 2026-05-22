@@ -97,6 +97,12 @@
       "imageHint": "person portrait"
     },
     {
+      "id": "testimonial-4",
+      "description": "Jorge Paula",
+      "imageUrl": "/Images/jorge-paula.jpeg",
+      "imageHint": "person portrait"
+    },
+    {
       "id": "gallery-1",
       "description": "",
       "imageUrl": "https://i.ibb.co/QF1mxcTT/1.jpg",
