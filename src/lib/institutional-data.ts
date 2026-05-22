@@ -26,7 +26,7 @@ Seu trabalho foi premiado com o Prêmio Shell (duas edições) e o CBTIJ, além 
   {
     id: 'eduardo-lagreca',
     nome: 'Eduardo Lagreca Fan',
-    cargo: 'Regente Assistente',
+    cargo: 'Maestro Adjunto',
     bio: "Bacharel em Piano pela Universidade Federal de Santa Maria (UFSM), Bacharel em Regência pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO) e Mestre em Música também pela UNIRIO. Foi regente assistente da Orquestra da Unirio, regendo a mesma em palcos como a Sala Cecília Meireles; diretor assistente do projeto Ópera na Unirio, onde regeu as óperas Suor Angelica (G. Puccini), Mesdames de La Halle (J. Offenbach), Amahl e os Visitantes Noturnos (G. C. Menotti). Fez parte como aluno da Academia de Música da OSESP, tendo aulas com professores como Wagner Polistchuk, Fabio Mechetti, Claudio Cruz, Stéphane Deneve e Jac van Steen, Atualmente é regente titular da Orquestra Carioca de Flautas, e também regente adjunto da Banda Sinfônica Nacional. Trabalhou em palcos importantes do país como Sala Cecília Meireles, Theatro Municipal (RJ) e Sala São Paulo, a frente de orquestras como OSB Jovem e Orquestra Jovem do Estado de São Paulo (OJESP)..",
     quote: "A verdadeira regência nasce quando a profundidade dos estudos acadêmicos encontra a alma e a exigência dos grandes palcos."
   },
@@ -108,6 +108,13 @@ export const testimonials = [
     title: 'Ministro de Música',
     quote: 'Meu nome é Peter Tenney e sou Ministro de Música da Catedral Presbiteriana do Rio de Janeiro. No ano passado, a nossa igreja abriu um espaço para que a Banda Sinfônica nacional pudesse ensaiar. No último dia 20 de janeiro tive o prazer de poder assistir a um concerto da Banda e pude constatar o quanto valeu termos apoiado a este conjunto musical.  Eles têm uma técnica de alto nível e um repertório bastante variado indo desde o clássico ao popular, do brasileiro ao internacional, sempre com muita qualidade e animação. Vale a pena conferir!',
     avatarId: 'testimonial-3'
+  },
+  {
+    id: 'depoimento-4',
+    name: 'Jorge Paula',
+    title: 'Maestro',
+    quote: 'Não existe nada mais gratificante na vida do que ver que algo que você fez deu certo. Meus parabéns, Geyzilaine, pela sua formação musical e pela maravilhosa banda sinfônica fundada por você. Parabéns!',
+    avatarId: 'testimonial-4'
   }
 ];
 
